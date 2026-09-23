@@ -1,0 +1,9 @@
+body {
+    background-color: grey;
+}
+h1 {
+    color: aliceblue;
+    font-family: 'URW Gothic', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
