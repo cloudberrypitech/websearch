@@ -19,7 +19,7 @@
     ],
     "homepage_url": "https://github.com/cloudberrypitech/websearch",
     "options_ui": {
-    "page": "webpages/settings/index.adoc",
+    "page": "webpages/settings/index.html",
     "open_in_tab": true
   }
 }
