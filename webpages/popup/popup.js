@@ -1,7 +1,14 @@
-document.getElementById('openLinkBtn')?.addEventListener('click', async () => {
+import { openChromeTab } from "webdevelop";
+
+document.getElementById('openLinkBtn').addEventListener('click', getInputText());
+
+function getInputText() {
+  var inputTextElement = document.getElementById('textInput');
+  var elem = inputTextElement.value;
   try {
-    await chrome.tabs.create({ url: 'https://www.google.com' });
+    const tab = await openChromeTab(elem);
+    console.log(tab.id);
   } catch (error) {
-    console.error('Failed to open the tab:', error);
+    console.error(error.message)
   }
-});
+}

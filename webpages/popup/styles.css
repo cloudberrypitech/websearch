@@ -1,6 +1,7 @@
 body {
   background-color: grey;
   width: 190px;
+  height: 230px;
   padding: 10px;
 }
 
@@ -14,4 +15,14 @@ h1 {
   font-family: "URW Gothic", sans-serif;
   font-weight: lighter;
   letter-spacing: 5px;
+}
+
+.textOutput {
+  color: aliceblue;
+  font-family: "URW Gothic", sans-serif;
+}
+
+.textInput {
+  width: 180px;
+  padding: 4px;
 }
