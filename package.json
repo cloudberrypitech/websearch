@@ -1,5 +1,19 @@
 {
   "devDependencies": {
     "prettier": "3.9.9"
-  }
+  },
+  "name": "websearch",
+  "version": "1.0.0",
+  "description": "A simple bing addon to search a url or open a predefined url quickly without searching on bing.com",
+  "main": "index.js",
+  "dependencies": {
+    "webdevelop": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }

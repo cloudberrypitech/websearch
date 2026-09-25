@@ -1,0 +1,17 @@
+body {
+  background-color: grey;
+  width: 190px;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: "URW Gothic", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
