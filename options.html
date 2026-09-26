@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link rel="stylesheet" href="options.css" />
+
+    <title>WebSearch Preferences - Settings</title>
+  </head>
+
+  <body>
+    <main class="settings">
+      <h1>WEBSEARCH SETTINGS</h1>
+
+      <section class="card">
+        <h2>Add Shortcut</h2>
+
+        <label for="shortcutName">
+          Shortcut name
+        </label>
+
+        <input
+          id="shortcutName"
+          type="text"
+          placeholder="Example: Google"
+        />
+
+        <label for="shortcutUrl">
+          URL
+        </label>
+
+        <input
+          id="shortcutUrl"
+          type="url"
+          placeholder="https://www.google.com"
+        />
+
+        <button id="addShortcutBtn">
+          Add Shortcut
+        </button>
+
+        <p id="status"></p>
+      </section>
+
+      <section class="card">
+        <h2>Prebuilt Shortcuts</h2>
+
+        <p>
+          Choose one of the predefined shortcuts below.
+        </p>
+
+        <div id="shortcutList"></div>
+      </section>
+
+      <section class="card">
+        <h2>Shortcut File</h2>
+
+        <p>
+          Prebuilt shortcuts are stored in
+          <strong>shortcuts.txt</strong>.
+        </p>
+
+        <p>
+          Format:
+        </p>
+
+        <code>
+          Name=https://example.com
+        </code>
+      </section>
+    </main>
+
+    <script src="options.js"></script>
+  </body>
+</html>

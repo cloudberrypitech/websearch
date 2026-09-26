@@ -1,0 +1,66 @@
+body {
+  background-color: grey;
+  width: 190px;
+  min-height: 230px;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: "URW Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin: 0 0 15px 0;
+}
+
+h2 {
+  color: aliceblue;
+  font-family: "URW Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 15px 0 8px 0;
+}
+
+#textInput {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+#shortcutContainer {
+  width: 100%;
+}
+
+#shortcuts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.shortcutButton {
+  padding: 6px;
+  font-size: 12px;
+}
+
+.settingsButton {
+  margin-top: 10px;
+}
+
+#textOutput {
+  color: aliceblue;
+  font-family: "URW Gothic", sans-serif;
+  margin-top: 10px;
+  font-size: 13px;
+  word-break: break-word;
+}

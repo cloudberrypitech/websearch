@@ -6,7 +6,7 @@
   "action": {
     "default_popup": "webpages/popup/index.html"
   },
-  "permissions": ["tabs", "scripting", "webRequest"],
+  "permissions": ["tabs", "scripting", "webRequest", "storage"],
   "description": "Websearch is a simple bing addon meant to search a url or open a predefined url quickly without searching on bing.com. It also provides other features such as start bing.com on start of browser, set google theme to and many more.",
   "host_permissions": [
     "https://bing.com/*",

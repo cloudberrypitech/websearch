@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="styles.css" rel="stylesheet" />
+
+    <title>WebSearch Preferences</title>
+  </head>
+
+  <body>
+    <h1>WEBSEARCH</h1>
+
+    <input
+      id="textInput"
+      type="url"
+      placeholder="Enter URL"
+      autocomplete="url"
+    />
+
+    <button id="openLinkBtn" type="button">Open URL</button>
+
+    <div id="shortcutContainer">
+      <h2>Shortcuts</h2>
+      <div id="shortcuts"></div>
+    </div>
+
+    <button id="settingsBtn" type="button" class="settingsButton">
+      ⚙ Settings
+    </button>
+
+    <div id="textOutput"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

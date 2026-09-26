@@ -1,0 +1,84 @@
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 30px;
+  font-family: "URW Gothic", sans-serif;
+  color: aliceblue;
+}
+
+.settings {
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  font-weight: lighter;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 9px 15px;
+  cursor: pointer;
+}
+
+#addShortcutBtn {
+  width: 100%;
+  margin-top: 8px;
+}
+
+#status {
+  min-height: 18px;
+  margin-bottom: 0;
+}
+
+.shortcutItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  margin-top: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.shortcutItem span {
+  overflow-wrap: anywhere;
+}
+
+.shortcutItem button {
+  flex-shrink: 0;
+}
+
+code {
+  display: block;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow-x: auto;
+}
