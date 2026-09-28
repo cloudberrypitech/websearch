@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "version_name": "0.0.1 - In Build",
   "action": {
-    "default_popup": "webpages/popup/index.html"
+    "default_popup": "index.html"
   },
   "permissions": ["tabs", "scripting", "webRequest", "storage"],
   "description": "Websearch is a simple bing addon meant to search a url or open a predefined url quickly without searching on bing.com. It also provides other features such as start bing.com on start of browser, set google theme to and many more.",
@@ -16,7 +16,7 @@
   ],
   "homepage_url": "https://github.com/cloudberrypitech/websearch",
   "options_ui": {
-    "page": "webpages/settings/index.html",
+    "page": "options.html",
     "open_in_tab": true
   }
 }
